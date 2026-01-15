@@ -2,6 +2,7 @@
 import { ArrowRight } from 'lucide-react';
 import { SplitText } from '@/components/ui/split-text';
 import { Button } from '@/components/ui/button';
+import landscapeDesktop from '../assets/landscape-web.webp';
 
 export const Hero = () => {
   return (
@@ -31,11 +32,8 @@ export const Hero = () => {
 
       
         <div className="w-full aspect-video md:aspect-21/9 bg-muted/20 rounded-lg overflow-hidden relative group">
-             {/* Abstract Gradient Background since we don't have the photo */}
-             <div className="absolute inset-0 bg-linear-to-br from-primary/10 via-background to-accent/5" />
-             <div className="absolute inset-0 flex items-center justify-center text-muted-foreground/30 font-light text-xl">
-                [Hero Image Placeholder]
-             </div>
+            
+             <img src={landscapeDesktop} alt="landscape computer buki" />
         </div>
 
        
