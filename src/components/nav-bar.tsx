@@ -17,7 +17,7 @@ function NavBar() {
   activeHref="/"
   className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between max-w-7xl mx-auto px-6 py-4 bg-background/80 backdrop-blur-md md:w-full"
   ease="power2.easeOut"
-  baseColor="#000000"
+  baseColor="#02352f"
   pillColor="#ffffff"
   hoveredPillTextColor="#ffffff"
   pillTextColor="#000000"

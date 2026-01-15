@@ -1,6 +1,5 @@
 
 import { ArrowRight } from 'lucide-react';
-import { CircularText } from '@/components/ui/circular-text';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 
@@ -8,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 export const Footer = () => {
   return (
-    <footer id="contact" className="bg-background pt-24 pb-12 overflow-hidden relative">
+    <footer className="bg-background pt-24 pb-12 overflow-hidden relative">
       
           
 
@@ -26,21 +25,22 @@ export const Footer = () => {
               <div>
                   <h4 className="text-white font-bold mb-6">Sitemap</h4>
                   <ul className="flex flex-col gap-3 text-sm text-muted-foreground">
-                      <li><a href="#" className="hover:text-white">Home</a></li>
-                      <li><a href="#" className="hover:text-white">Services</a></li>
-                      <li><a href="#" className="hover:text-white">Work</a></li>
+                      
                       <li><a href="#" className="hover:text-white">About</a></li>
+                      <li><a href="#" className="hover:text-white">Services</a></li>
+                      <li><a href="#" className="hover:text-white">Projects</a></li>
                       <li><a href="#" className="hover:text-white">Contact</a></li>
                   </ul>
               </div>
                <div>
                   <h4 className="text-white font-bold mb-6">Socials</h4>
                   <ul className="flex flex-col gap-3 text-sm text-muted-foreground">
-                      <li><a href="#" className="hover:text-white">Twitter</a></li>
-                      <li><a href="#" className="hover:text-white">LinkedIn</a></li>
-                      <li><a href="#" className="hover:text-white">Threads</a></li>
-                      <li><a href="#" className="hover:text-white">Read CV</a></li>
-                      <li><a href="#" className="hover:text-white">Telegram</a></li>
+                      
+                      <li><a href="https://www.linkedin.com/in/abubker-init-mohamed/" className="hover:text-white" target='_blank'>LinkedIn</a></li>
+                      
+                      <li><a href="https://github.com/" className="hover:text-white" target='_blank'>Github</a></li>
+                      <li><a href="#" className="hover:text-white" target='_blank'>Download CV</a></li>
+                      <li><a href="https://t.me/dayonedev" className="hover:text-white" target='_blank'>Telegram</a></li>
                   </ul>
               </div>
                <div className="flex flex-col justify-end">

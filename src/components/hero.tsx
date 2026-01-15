@@ -38,13 +38,13 @@ export const Hero = () => {
              </div>
         </div>
 
-       \
+       
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 text-lg md:text-xl font-light leading-relaxed text-muted-foreground">
           <p>
-            I've spent a couple of decades creating brands and digital products and obsessing over what makes them fly. I run a creative studio called <span className="underline decoration-accent underline-offset-4 text-foreground cursor-pointer">The Morphing</span> and invest in cartel-esque ventures — collaborating on brave ideas with amazing people.
+            Mission-driven Full Stack Developer with over 3 years of hands-on experience building scalable, production-ready web applications.<span className="underline decoration-accent underline-offset-4 text-foreground cursor-pointer"> Specializes in the TypeScript  (React, Next.js, Node.js) </span> with a strong emphasis on clean, maintainable, and well-tested code. Proven ability to deliver impactful internal systems at a major financial institution and high-quality freelance web solutions. 
           </p>
           <p>
-            I focus on early-stage design — taking a brand from zero to one. My portfolio companies raise strategic rounds in their foundational stages and leverage their position in the market. Over the past few years, I've helped build fun startups and my work has led to over $500M in investment.
+           I bring broad experience from low-level Bash scripts automating installations to integrating chatbot with contact center platform during my previous role. On the freelance side, I've helped businesses build strong online presences, showcase their offerings, and attract more customers through clean, responsive websites.
           </p>
         </div>
       </div>

@@ -1,10 +1,12 @@
 
  import { Hero } from '@/components/hero';
-import { Services } from '@/components/services'; 
-import { HighlightGrid } from '@/components/highlight-grid';
+import { Services } from '@/components/about'; 
+import { HighlightGrid } from '@/components/services';
+import { Projects } from '@/components/projects';
 import { ExpressYourself } from '@/components/express-yourself';
 import { Footer } from '@/components/footer';
 import NavBar from './components/nav-bar';
+import { Toaster } from 'sonner';
 
 function App() {
   return (
@@ -15,9 +17,11 @@ function App() {
         <Hero />
         <Services />
         <HighlightGrid />
+        <Projects />
         <ExpressYourself />
       </main>
       <Footer />
+      <Toaster position="top-center" richColors />
     </div>
   );
 }
